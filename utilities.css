@@ -1,0 +1,139 @@
+/* utilities start*/
+.card{
+    background-color: var(--text-color);
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.5);
+    color:#333;
+    font-weight:100;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:15px;
+  }
+  .btn-primary{
+    background-color:var(--primary-color);
+    padding: 7px 25px;
+    align-items: center;
+    color:var(--text-color);
+    border-radius:4px;
+    cursor:pointer;
+    font-size:15px;
+  }
+  .btn-outline{
+    outline:none;
+    padding: 10px 20px;
+    border-radius:7px;
+    border:1px solid #eee;
+    color:var(--text-color);
+    align-items:center;
+    background-color: var(--primary-color);
+    margin-top:20px;
+    cursor:pointer;
+  }
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    align-items:center;
+    justify-content:center;
+    height:100%;
+  }
+  .grid-3{
+    grid-template-columns:repeat(3,1fr);
+  }
+  .text-center{
+   text-align:center;
+  }
+  .flex{
+      display:flex;
+      justify-content: center;
+      align-items:center; 
+  }
+  .flex-col{
+    flex-direction:column;
+  }
+  .sm{
+    font-size:1rem;
+  }
+  .md{
+    font-size:2rem;
+  }
+  .lge{
+    font-size:3rem;
+  }
+  .xlg{
+    font-size:4rem;
+  }
+  
+  /* utilities end*/
+  /* Margin */
+  .my-1{
+    margin:1rem 0;
+  }
+  .my-2{
+    margin:1.5rem 0;
+  }
+  .my-3{
+    margin:2rem 0;
+  }
+  .my-4{
+    margin:3rem 0;
+  }
+  .my-5{
+    margin:4rem 0;
+  }
+  .m-1{
+    margin:1rem;
+  }
+  .m-2{
+    margin:1.5rem;
+  }
+  .m-3{
+    margin:2rem;
+  }
+  .m-4{
+    margin:3rem;
+  }
+  .m-5{
+    margin:4rem;
+  }
+  /* Margin */
+  /*padding*/
+  .py-1{
+    padding:1rem 0;
+  }
+  .py-2{
+    padding:1.5rem 0;
+  }
+  .py-3{
+    padding:2rem 0;
+  }
+  .py-4{
+    padding:3rem 0;
+  }
+  .py-5{
+    padding:4rem 0;
+  }
+  .p-1{
+    padding:1rem;
+  }
+  .p-2{
+    padding:1.5rem;
+  }
+  .p-3{
+    padding:2rem;
+  }
+  .m-4{
+    padding:3rem;
+  }
+  .p-5{
+    padding:4rem;
+  }
+
+  /*padding*/
+  .fa-x{
+    font-size: 1.5rem;
+    padding:20px;
+  }
+  .fa-2x{
+    font-size: 4.5rem;
+    padding:20px;
+  }
